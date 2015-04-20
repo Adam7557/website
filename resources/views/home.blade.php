@@ -1,26 +1,34 @@
 @extends('layouts.default')
 
 @section('content')
-<h1></h1>
-<div class="nav nav-pills">
-    <li>
-        <a href="about">
-            <i class="fa fa-question-circle"></i>
-        </a>
-    </li>
-    <li>
-        <a href="contact.php">
-            <i class="fa fa-envelope-o"></i>
-        </a>
-    </li>
-    <li>
-        <a href="apply.php">Apply for a Loan</a>
-    </li>
-</div>
-<div class="container">
     <div class="jumbotron">
-    	<img id="icon" src="images/logo.png" />
-    	<p>The Charles T. King organization provides students interested in going to college with loans at 0% interest.</p>
+        <img id="icon" src="images/logo.png" />   <!--We'll turn this jumbotron into a slider w/ latest updates later-->
     </div>
-</div>
+    
+    <div class="row">
+        <a href="#apply">
+            <div class="col-md-3 pizza" id="apply">
+              <h3><center>apply</center></h3>     
+            </div>
+        </a>
+        
+        <a href="{{route('about')}}">
+            <div class="col-md-3 pizza" id="about">
+                <!--<img src="images/favicon.png">-->
+                <h3><center>about</center></h3>
+            </div>
+        </a>
+        
+        <a href="{{route('contact')}}">       
+            <div class="col-md-3 pizza" id="contact">
+                <h3><center>contact</center></h3>
+            </div>
+        </a>
+        
+        <a href="#status">    
+            <div class="col-md-3 pizza" id="status">
+                <h3><center>loan status</center></h3>
+            </div>
+        </a>
+    </div>
 @stop
