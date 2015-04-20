@@ -19,6 +19,8 @@
 				</li>
 				<li class="{{ Route::is('contact') ? 'active' : ''}}"><a href="{{ route('contact') }}">Contact us</a>
 				</li>
+				<li class="{{ Route::is('apply') ? 'active' : ''}}"><a href="{{ route('apply') }}">Apply for a Loan<span class="sr-only">(current)</span></a>
+				</li>
 			</ul>
 		</div><!-- /.navbar-collapse -->
 	</div><!-- /.container-fluid -->
