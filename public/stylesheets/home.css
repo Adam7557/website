@@ -1,0 +1,55 @@
+#icon {
+    width: 100%;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+h3 {
+    color: #fff !important;
+    font-size: 250%;
+    font-family: 'Helvetica Neue';
+}
+
+h3:hover {
+    text-decoration: none !important;
+    color: #fff !important
+}
+
+.jumbotron {
+    padding: 0 !important;
+}
+
+
+.pizza {
+    height: 15%;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    padding: 15px;
+}
+
+.pizza:hover {
+    height: 35%;
+    opacity: 0.9;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+#apply {
+    background-color: #58C4FF;
+}
+
+#about {
+    background-color: #A5DFFF;
+}
+
+#contact {
+    background-color: #23457F;
+}
+
+#status {
+    background-color: #46C7FF;
+}

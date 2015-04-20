@@ -10,5 +10,12 @@
 <!-- Navigation Bar CSS -->
 <link rel="stylesheet" href="stylesheets/navbar.css">
 
+<!-- Font Awesome for Icons -->
+<link href="http://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet" />
+
 <!-- Favicon -->
 <link rel="icon" type="image/png" href="images/favicon.png">
+
+<!--- Home Page CSS --->
+<link rel="stylesheet" href="stylesheets/home.css">
+
