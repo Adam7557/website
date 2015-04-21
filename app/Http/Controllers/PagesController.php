@@ -21,5 +21,10 @@ class PagesController extends Controller {
 	{
 	    return view('contact');
 	}
+	
+	public function apply()
+	{
+	    return view('apply');
+	}
 
 }

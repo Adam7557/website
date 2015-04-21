@@ -22,3 +22,7 @@ Route::get('contact', [
 Route::get('about', [
     'as'=>'about', 'uses'=>'PagesController@about'
 ]);
+
+Route::get('apply', [
+    'as'=>'apply', 'uses'=>'PagesController@apply'
+]);
