@@ -10,3 +10,10 @@ Before you run the server, you have to set up the backend. The c9-setup.sh scrip
 sudo bash c9-setup.sh
 ```
 Make sure to use ```sudo``` so that the file can change system files
+
+#### Laravel Resources
+[Laravel.io forum](http://laravel.io)
+
+[/r/laravel](http://reddit.com/r/laravel)
+
+[Laracasts forum](https://laracasts.com/discuss)
