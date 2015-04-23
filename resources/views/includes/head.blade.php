@@ -16,6 +16,6 @@
 <!-- Favicon -->
 <link rel="icon" type="image/png" href="images/favicon.png">
 
-<!--- Home Page CSS --->
+<!-- Home Page CSS -->
 <link rel="stylesheet" href="stylesheets/home.css">
 
