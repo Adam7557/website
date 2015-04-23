@@ -8,10 +8,10 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
 <!-- Navigation Bar CSS -->
-{{ HTML::style('/stylesheets/navbar.css') }}
+{{ HTML::style('stylesheets/navbar.css') }}
 
 <!-- CSS -->
-{{ HTML::style('/stylesheets/styles.css') }}
+{{ HTML::style('stylesheets/styles.css') }}
 
 <!-- Font Awesome for Icons -->
 <link href="http://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet" />
