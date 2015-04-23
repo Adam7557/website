@@ -1,4 +1,4 @@
-#icon {
+#slider-logo {
     width: 100%;
 }
 
@@ -6,7 +6,7 @@
     padding: 0;
 }
 
-.panel {
+.section {
     height: 15%;
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
@@ -14,7 +14,7 @@
     padding: 15px;
 }
 
-.panel:hover {
+.section:hover {
     height: 35%;
     opacity: 0.9;
     -webkit-transition: all 0.2s ease-out;
@@ -22,17 +22,17 @@
     transition: all 0.2s ease-out;
 }
 
-.panel a:hover {
+.section a:hover {
     text-decoration: none;
 }
 
-.panel h3 {
+.section h3 {
     color: #fff;
     font-size: 250%;
     font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 }
 
-.panel h3:hover {
+.section h3:hover {
     text-decoration: none;
     color: #fff;
 }
