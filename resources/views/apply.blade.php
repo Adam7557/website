@@ -10,7 +10,7 @@
             <li>Applicant must be a Millburn Township resident.</li>
             <li>Loan amount is up to a maximum of $4000 per year for up to four years. </li>
             <li>Loans are need-based and currently interest free.</li>
-            <li>Application Als4a completed current Financial Aid Form (MESA) must be submitted by May 10th, 2015 to be considered for a loan beginning in 2015 Fall School Year.</li>
+            <li>Application AND a completed current Financial Aid Form (MESA) must be submitted by May 10th, 2015 to be considered for a loan beginning in 2015 Fall School Year.</li>
             <li>All decisions for loans beginning in the 2015 Fall School Year will be made before June 30th, 2015. If a loan is granted to an applicant, the Treasurer of the Fund will inform the applicant.</li>
             <li>Borrower must request loan from the Treasurer for each successive year after initial approval.</li>
             <li>Loans are to be used for tuition only. For each semester, the Treasurer will give borrower a check for the loan amount, made payable to the Treasurer of the College at which the applicant is attending. A note will be drawn up at that time to be signed by all co-borrowers.</li>
