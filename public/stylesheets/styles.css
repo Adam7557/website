@@ -1,28 +1,12 @@
-#icon {
+#slider-logo {
     width: 100%;
 }
 
-a:hover {
-    text-decoration: none !important;
-}
-
-h3 {
-    color: #fff !important;
-    font-size: 250%;
-    font-family: 'Helvetica Neue';
-}
-
-h3:hover {
-    text-decoration: none !important;
-    color: #fff !important
-}
-
 .jumbotron {
-    padding: 0 !important;
+    padding: 0;
 }
 
-
-.pizza {
+.section {
     height: 15%;
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
@@ -30,13 +14,29 @@ h3:hover {
     padding: 15px;
 }
 
-.pizza:hover {
+.section:hover {
     height: 35%;
     opacity: 0.9;
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
 }
+
+.section a:hover {
+    text-decoration: none;
+}
+
+.section h3 {
+    color: #fff;
+    font-size: 250%;
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+.section h3:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
 
 #apply {
     background-color: #58C4FF;
