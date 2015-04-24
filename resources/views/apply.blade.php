@@ -1,6 +1,7 @@
 @extends('layouts.default')
 
 @section('content')
+<h1>Apply for a Charles T. King Loan</h1>
 <div class="row">
 <div class="col-md-8">
     <h2>General Info</h2>
@@ -22,7 +23,7 @@
         </li>
     </ol>
 </div>
-<div class="col-md-4">
+<div class="col-md-4 sidebar">
     <h2 class=title>Documents</h3>
     <ul>
         <li>

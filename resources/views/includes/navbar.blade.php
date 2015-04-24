@@ -1,5 +1,6 @@
 <nav class="navbar navbar-default">
-	<div class="container"> <!--Container so it can shrink on mobile -->
+	<div class="container">
+		<!--Container so it can shrink on mobile -->
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 				<span class="sr-only">Toggle navigation</span>
@@ -7,7 +8,10 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="{{ route('home') }}"><img alt="Brand" class="nav-logo" src="images/favicon.png"/></a>
+			<a class="navbar-brand" href="{{ route('home') }}"><img alt="Brand" class="nav-logo" src="images/favicon.png" />
+			
+			</a>
+			
 		</div>
 
 		<!-- Collect the nav links, forms, and other content for toggling -->
@@ -17,11 +21,14 @@
 				</li>
 				<li class="{{ Route::is('about') ? 'active' : ''}}"><a href="{{ route('about') }}">About</a>
 				</li>
-				<li class="{{ Route::is('contact') ? 'active' : ''}}"><a href="{{ route('contact') }}">Contact us</a>
-				</li>
 				<li class="{{ Route::is('apply') ? 'active' : ''}}"><a href="{{ route('apply') }}">Apply for a Loan<span class="sr-only">(current)</span></a>
 				</li>
+				<li class="{{ Route::is('contact') ? 'active' : ''}}"><a href="{{ route('contact') }}">Contact us</a>
+				</li>
+
 			</ul>
-		</div><!-- /.navbar-collapse -->
-	</div><!-- /.container-fluid -->
+		</div>
+		<!-- /.navbar-collapse -->
+	</div>
+	<!-- /.container-fluid -->
 </nav>

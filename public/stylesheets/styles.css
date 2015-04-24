@@ -1,3 +1,7 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    
+}
 #slider-logo {
     width: 100%;
 }
@@ -10,7 +14,7 @@
 }
 
 .section {
-    height: 15%;
+    height: 120px;
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
@@ -40,6 +44,16 @@
     color: #fff;
 }
 
+.sidebar{
+    background-color:#eee;
+    border-radius:2px;
+    padding:0 15px 15px 15px;
+}
+
+.jumbotron-home{
+    background-color:#fff;
+    margin-bottom:45px;
+}
 
 #apply {
     background-color: #58C4FF;
