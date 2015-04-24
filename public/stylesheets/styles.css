@@ -1,7 +1,10 @@
 #slider-logo {
     width: 100%;
 }
-
+.nav-logo {
+	height: 100%;
+	width: auto;
+}
 .jumbotron {
     padding: 0;
 }
