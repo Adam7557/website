@@ -32,5 +32,7 @@
         
     </div>
     
-    <script src="/scripts/home.js"></script>
+    @section('scripts')
+        <script src="/scripts/home.js"></script>
+    @stop
 @stop
