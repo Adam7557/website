@@ -1,16 +1,9 @@
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 
-<!-- Optional theme -->
-
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-
-<!-- Navigation Bar CSS -->
-{!! HTML::style('stylesheets/navbar.css') !!}
-
-<!-- CSS -->
-{!! HTML::style('stylesheets/styles.css') !!}
+<!--Custom Stylesheets-->
+<link rel="stylesheet" href="stylesheets/navbar.css">
+<link rel="stylesheet" href="stylesheets/styles.css">
 
 <!-- Font Awesome for Icons -->
 <link href="http://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet" />
@@ -20,4 +13,3 @@
 
 <!-- Font Import -->
 <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-
