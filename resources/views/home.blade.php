@@ -31,4 +31,6 @@
         
         
     </div>
+    
+    <script src="/scripts/home.js"></script>
 @stop
